@@ -7,9 +7,9 @@ import torch.nn.functional as F
 from torch.nn import LSTM
 
 
-class Moci(nn.Module):
+class MIN(nn.Module):
     def __init__(self, dim_str, tensor_n):
-        super(Moci, self).__init__()
+        super(MIN, self).__init__()
         self.drop = nn.Dropout(0.1)
         self.dropout2 = nn.Dropout(0.1)
         self.linear1 = nn.Linear(dim_str, 2048)
@@ -123,8 +123,8 @@ class DTME(nn.Module):
         self.proj_aud = nn.Linear(128, dim_str)
         self.proj_vid = nn.Linear(768, dim_str)
 
-        self.moci_e = Moci(dim_str, 41)
-        self.moci_r = Moci(dim_str, 41)
+        self.moci_e = MIN(dim_str, 41)
+        self.moci_r = MIN(dim_str, 41)
 
 
         alpha=0.1#select the parameter
