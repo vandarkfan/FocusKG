@@ -1,0 +1,301 @@
+id,question,gt_answer,pred_answer,EM,F1
+1,Which region is predicted to have high temperatures of 35-37 degrees on June 24-25 according to the Central Meteorological Station?,North China,Henan,False,0.0
+2,"Which organization requested domestic transport carriers in China to suspend Boeing 737-8 commercial operations before March 11, 2019?",China Civil Aviation Administration,The Civil Aviation Administration of China (CAAC),False,0.7272727272727273
+3,Who introduced the situation of China's foreign trade import and export in 2018 at the press conference?,Li Kuiwen,Li Kuiwen,True,1.0
+4,Who responded to media questions about measures restricting high-tech goods purchases in China at the Ministry of Commerce press conference?,Gao Feng,Gao Feng,True,1.0
+5,"On 2019-04-12, which entity said they were willing to hold a third meeting with Kim Jeong-eun?",President Trump,President Trump,True,1.0
+6,Which entity responded to China Airlines' claim to Boeing at a press conference?,Lu Kang,Civil Aviation Administration of China,False,0.0
+7,Which organization responded to the alarm about eight people trapped in their homes in Caijiawan?,the local fire department,FIREFIGHTERS,False,0.0
+8,"On 2019-05-23, which entity announced sanctions on 13 Chinese enterprises and individuals?",the international security and non proliferation administration of the State Council of the United States,The United States' International Security and Non-Proliferation Administration,False,0.7000000000000001
+9,Who reported on the situation in the commodity market in Caracas according to the text?,CCTV reporter galagas,CCTV,False,0.5
+10,Which company's engineers said that the content of the software upgrade exceeded previous expectations?,Boeing,Boeing,True,1.0
+11,Which country's navy initiated the joint maritime exercise mentioned in the article?,Pakistan,Pakistan,True,1.0
+12,Who evaluated the lightning drone developed on the basis of rq-170?,Iranian military,Iranian military,True,1.0
+13,What spacecraft was originally intended for the Chang'e-3 exploration mission before being repurposed for a new mission?,Chang'e-4,Chang'e-4,True,1.0
+14,Which expert designed China's first underground aircraft hangar door resistant to atomic bomb explosions?,Qian Qihu,Qian Qihu,True,1.0
+15,Which organization stated that all wages will be paid to migrant workers before the Spring Festival?,Ministry of transport,Ministry of transport,True,1.0
+16,Which country hosted the opening ceremony of the joint performance on the sea in Qingdao?,China,China,True,1.0
+17,Which court held the public hearing for Wang Erzhi's bribery case?,Harbin intermediate people's Court,Harbin Intermediate People's Court,True,1.0
+18,Which organization dispatched rescue personnel to the scene after receiving the alarm about flooded villages in Zhongfeng town?,the local fire department,LOCAL GOVERNMENT,False,0.3333333333333333
+19,Which country's president called on European allies to receive extremist organization members?,United States,the United States,False,0.8
+20,Which entity issued a joint statement on May 9th calling on Iran to continue abiding by the nuclear agreement?,"European Union High Representative for foreign and security policy mogherini and foreign ministers of the United Kingdom, France and Germany","European Union High Representative for foreign and security policy mogherini and foreign ministers of the United Kingdom, France and Germany",True,1.0
+21,"According to the South Korean government shipwreck emergency response Working Group No. 6, which organization found three more bodies in the lower reaches of the Danube River?",Hungarian police,Hungarian Police,True,1.0
+22,"On March 13, 2019, which entity's spokesperson responded to the impasse in negotiations regarding the Korean Peninsula?",Lu Kang,Lu Kang,True,1.0
+23,"On 2019-01-22, which entity released data showing the birth rate was 10.94% and the natural growth rate was 3.81%?",National Bureau of Statistics,National Health and Health Commission,False,0.25
+24,"On 2019-01-24, which entity introduced the 99729 missile as an upgraded version of the Iskander m missile?",matvyevsky,General Matvyevsky,False,0.6666666666666666
+25,Which county's experimental No.1 Primary School had teachers and students run to the playground during the earthquake?,Gaoxian County,Gaoxian County,True,1.0
+26,Which entity responded to questions about tax declarations under the new personal income tax law?,Beijing tax service center,Beijing Tax Service Center,True,1.0
+27,Which police officers from the Anhui Wuhu Jinghu brigade drove the police car to help the woman on the side of the road?,Ni yuan and Tao min,Ni Yuan and Tao Min,True,1.0
+28,Who delivered an important speech at the 40th anniversary commemorative meeting for Taiwan compatriots?,Xi Jinping,Xi Jinping,True,1.0
+29,Which organization's officers and soldiers developed drainage channels to dredge roads in the earthquake area of Changning County?,Sichuan Armed Police Corps,Sichuan Armed Police Corps,True,1.0
+30,What city in Shandong Province did the police patrol when they discovered the suspicious off-road vehicle?,Weihai,Weihai,True,1.0
+31,Which entity interviewed experts in the field of space architecture regarding the Chang'e-4 landing?,the associated press,the associated press,True,1.0
+32,"On 2019-06-29, which organization's spokesman said that 2019 would become the hottest year in meteorological history?",The World Meteorological Organization,World Meteorological Organization,False,0.8571428571428571
+33,Which airline has the largest number of Boeing 737-8 airliners according to the New York Times statistics?,Southwest Airlines,Southwest Airlines,True,1.0
+34,"On 2019-01-04, which entity announced the configuration plan for Beijing Daxing International Airport?",Civil Aviation Administration of China,Civil Aviation Administration of China,True,1.0
+35,"On 2019-02-13, which U.S. official said during a visit to Slovakia that it is necessary to prevent China from manipulating political systems through economic means?",Peng Piao,Mike Pompeo,False,0.0
+36,Which organization held a press conference to introduce the macro-economic operation in the first two months?,National Bureau of statistics,National Bureau of Statistics,True,1.0
+37,Which company signed an agreement with Harold Davidson to cooperate in motorcycle production?,Zhejiang Qianjiang Motorcycle Company,Zhejiang Qianjiang Motorcycle Company,True,1.0
+38,Who gave an interview to CCTV reporters at the Fifth China Russia think tank high-end forum?,Ivanov,Ivanov,True,1.0
+39,Which entity's secret documents were published by Assange's WikiLeaks website in 2010?,U.S. government,U.S. government,True,1.0
+40,Which country has been sending peacekeepers to Lebanon for 13 consecutive years?,China,China,True,1.0
+41,Who replied to the reporter's question about boosting the healthy development of artificial intelligence?,Zhang Yesui,Zhang Yesui,True,1.0
+42,Who said they would discuss the issue of NATO allies increasing military spending at the NATO foreign ministers' meeting?,Peng peiao,Peng peiao,True,1.0
+43,"On April 20, 2019, which entity's frigate was the first foreign naval ship to arrive in Qingdao for the Navy Festival?",Singapore Navy,Singapore Navy,True,1.0
+44,Which building had about 100 people evacuated to a nearby park according to firefighters?,Jinlin building,Jinlin Building,True,1.0
+45,"On November 4, 2018, whose factory producing ephedrine and methadone began to be put into production on a large scale?",Lai,Lai,True,1.0
+46,Which entity carried out traffic control on Zhuyong Yongjin and other expressways?,high-speed traffic police,High-speed Traffic Police,True,1.0
+47,Which country's foreign ministry spokesman stressed that dialogue and consultation are the only way?,China,China,True,1.0
+48,Which airline has the largest number of 737max aircraft grounded in China according to the reporter?,China Southern Airlines,China Southern Airlines,True,1.0
+49,Which building's entire structure can be placed within the 90-meter radius column-free space of the terminal?,national swimming center,National Swimming Center,True,1.0
+50,"On 2019-03-07, which entity said that relevant researchers will further monitor and study the volcanic activity?",Delacruz,DELACRUZ,True,1.0
+51,Which country's foreign minister met with Iranian Foreign Minister Boris Zarif in Moscow?,Russia,Russia,True,1.0
+52,"On 2019-01-11, which entity achieved the first soft landing of a human probe on the back of the moon?",chang'e-4,Chang'e-4,True,1.0
+53,Which country's leader said that restricting Huawei is not the goal of their country?,France,France,True,1.0
+54,Which company did the families of the victims sue in the Federal District Court of Chicago?,Boeing company,Boeing company,True,1.0
+55,Who introduced the outcomes of the five nuclear conference at the Ministry of Foreign Affairs press conference?,Geng Shuang,Geng Shuang,True,1.0
+56,"On 2019-03-30, which entity was mentioned as having agreed that Theresa May's application for delaying Brexit had not been withdrawn?",the European Union,the European Union,True,1.0
+57,"On 2019-02-20, which entity was described as the largest station on the Beijing Zhangjiakou high-speed railway line?",Qinghe station,Qinghe Station,True,1.0
+58,"On 2019-02-12, which Chinese official responded to the US Defense Intelligence Agency report at a press conference?",Hua Chunying,Hua Chunying,True,1.0
+59,Which entity organized personnel to rescue two trapped elderly people in Wudang District?,the local fire department,LOCAL FIRE DEPARTMENT,False,0.8571428571428571
+60,"On April 30, 2019, which entity opened six direct passenger trains between Zhengzhou and Beijing?",Zhengzhou Bureau,Zhengzhou Bureau,True,1.0
+61,Which company was investigated by the public security organ in Tianjin?,Quanjian company,Quanjian Company,True,1.0
+62,Which district's People's Procuratorate in Shandong Province approved the arrest of 10 suspects including Zhong Shifeng?,Weicheng District,Weicheng District,True,1.0
+63,Which country did Geng Shuang say is promoting the construction of outer space forces?,the United States,the United States,True,1.0
+64,"On 2019-03-09, which entity was reported to have released a new UAV according to the Russian satellite news agency?",U.S. Air Force Research Laboratory,Russian Ministry of Defense,False,0.0
+65,Which organization issued two yellow warning signals for strong wind and dust storm on the 15th?,Inner Mongolia Meteorological Observatory,The Central Meteorological Observatory,False,0.5
+66,"On 2019-03-14, which airline stated that the black boxes from the Ethiopian air crash would be sent to Germany for analysis?",Ethiopian Airlines,Ethiopian Airlines,True,1.0
+67,Which organization successfully bred 27 giant panda cubs at its headquarters in 2018?,China Giant Panda Protection and Research Center,China Giant Panda Protection and Research Center,True,1.0
+68,Which country's Ministry of Foreign Affairs responded to the Helms-Burton law provisions at a press conference?,China,China,True,1.0
+69,"On 2019-01-11, which vice mayor introduced the implementation plan for Beijing's urban sub-center at the State Council Information Office press conference?",Sui Zhenjiang,Sui Zhenjiang,True,1.0
+70,Which entity released tax reduction data for the first two months of 2019?,The State Administration of Taxation,State Administration of Taxation,False,0.888888888888889
+71,Which country's leader said that European countries cannot be trusted when discussing their suggestions and statements on Iran?,Khamenei,Khamenei,True,1.0
+72,Which organization's managing director gave a briefing to G20 finance ministers and central bank governors?,IMF,International Monetary Fund,False,0.0
+73,Who was packaged as Gao Fushui by the gang due to their outstanding image?,Xu,Xu,True,1.0
+74,Which ship did CCTV reporters board to see its true appearance during the China-Thailand military training?,Wuzhishan ship,Wuzhishan ship,True,1.0
+75,Which organization was divided into four groups to verify the disaster in affected towns?,The Civil Affairs Department,The Civil Affairs Department,True,1.0
+76,Which department organized the fire departments to carry out the patrol drill of the fire life passage?,The emergency management department and the Fire Rescue Bureau,fire rescue department,False,0.5454545454545454
+77,Who hugged the two-year-old child after he jumped out of the train door?,The staff,The Station staff,False,0.8
+78,Which entity suggested holding a second Brexit referendum according to the article?,Nicolas sturgeon,Nicola Sturgeon,False,0.5
+79,Which city in Inner Mongolia did the Russian grassland fire spread to?,Hulunbuir City,Hulunbuir City,True,1.0
+80,"On 2019-03-08, which director answered questions about China's weather and climate trends during the NPC and CPPCC ministerial channel?",Liu Yaming,Liu Yaming,True,1.0
+81,Who was one of the organizers of the Zhenjiang incident and a participant in the Pingdu incident?,Zhang Xiaolong,Zhang Xiaolong,True,1.0
+82,Who accused China and Russia of preventing the UN Security Council from passing a presidential statement on Venezuela?,The Secretary of state of the United States,The United States,False,0.6666666666666666
+83,Which entity responded to comments about China's direct marketing industry management?,Ministry of Commerce,Ministry of Commerce,True,1.0
+84,Who did Venezuela's Supreme Court recognize as the constitutional president?,Maduro,Nicolás Maduro,False,0.6666666666666666
+85,Who said that American politicians were inciting ideological confrontation?,Lu Kang,Lu Kang,True,1.0
+86,Who responded to media questions about China potentially continuing to buy American pork at the press conference?,Gao Feng,Gao Feng,True,1.0
+87,"On 2019-01-12, which entity tested a variety of new weapons during large-scale exercises?",Iranian Air Forces,Iranian Air Force,False,0.6666666666666666
+88,Who is the President of the British Fashion Association according to the text?,Stephanie Phil,Stephanie Phil,True,1.0
+89,"On December 4, 2011, which country announced that its air defense forces shot down a U.S. RQ-170 drone?",Iran,Iran,True,1.0
+90,Who said that any equipment supplier including Huawei should not be specifically excluded from 5G construction?,Horman,Horman,True,1.0
+91,"On 2019-06-11, which organization's anniversary was being commemorated according to the news?",Red Army,The People's Liberation Army Navy,False,0.28571428571428575
+92,"On 2019-02-10, which entity reported that meltwater from Greenland and Antarctica will cause serious damage to ocean currents?",The research team,International Research Team,False,0.6666666666666666
+93,Which lawyer was disqualified by the Guangdong Lawyers Association for committing the crime of forging evidence?,Kong qiangcheng,Kong Qiangcheng,True,1.0
+94,"On 2019-01-04, which entity successfully landed on the back of the moon?",chang'e-4,Chang'e-4,True,1.0
+95,Who said that there are no winners in the trade war?,Wang Shouwen,Wang Shouwen,True,1.0
+96,Who said that China's defense spending has dropped from double-digit growth to single digit growth since 2016?,Zhang Yesui,Zhang Yesui,True,1.0
+97,Which entity was responsible for the traffic accident according to the civil police?,driver,driver,True,1.0
+98,Where was the military parade held to commemorate the 75th anniversary of the victory of the Leningrad defense war?,St. Petersburg,St. Petersburg,True,1.0
+99,Who announced sanctions on four Venezuelan officials at the Lima group meeting?,vice president Peng Si of the United States,The United States,False,0.5454545454545454
+100,Which country's spokesperson said that China's actions are a self-defense counterattack?,China,China,True,1.0
+101,Which country's national security adviser announced the deployment of aircraft carriers and bombers to the Middle East?,United States,United States,True,1.0
+102,Which operator announced plans to increase train frequency between Hong Kong West Kowloon Station and Shenzhen Futian station during the Spring Festival?,MTR,MTR,True,1.0
+103,"On 2019-05-30, which entity held a public hearing on the case of Wu Zhen?",The Chengdu Intermediate People's Court of Sichuan Province,Chengdu Intermediate People's Court,False,0.6666666666666666
+104,Which country's president immediately admitted Juan Guaidó's temporary presidential status?,United States,The United States,False,0.8
+105,Which entity did Maduro accuse of trying to deliver humanitarian aid to Venezuela without permission?,the US,The United States,False,0.4
+106,Who initially confirmed that the forest fire in Muli was caused by a lightning strike?,forest public security staff,Forest public security staff,True,1.0
+107,Who designed the new Suzhou Museum that opened to the public in 2006?,I.M. Pei,I.M. Pei,True,1.0
+108,Which court publicly sentenced Ji Xiangqi to imprisonment and fines for bribery and corruption?,"the intermediate people's Court of Jinzhong City, Shanxi Province",Jinzhong City Intermediate People's Court,False,0.7142857142857143
+109,"On 2019-02-01, which entity announced the development and testing of the polar version of the S400 air defense missile system?",Russian Ministry of Defense,Russian Ministry of Defense,True,1.0
+110,"On 2019-01-03, which leader delivered an important speech at the 40th anniversary commemorative meeting to the Taiwan compatriots?",President Xi Jinping,President Xi Jinping,True,1.0
+111,Which organization launched the special campaign against drunk driving in Tianjin?,Tianjin traffic police,TIANJIN TRAFFIC POLICE,True,1.0
+112,"On 2019-03-14, which company was described as facing an unprecedented public opinion crusade?",Boeing,Boeing,True,1.0
+113,Which entity launched a practical combat drill in the deep mountains under minus 20 degrees Celsius?,a rocket army brigade,Northern War Zone army border defense,False,0.2
+114,"Which entity did the police in Liaoyuan, Jilin Province find through technical analysis to be closely related to Ms. Zhao's capital flow?",a company in Xi'an,a company in Xi'an,True,1.0
+115,Which road suffered from mountain collapse and interruption due to the earthquake?,Yiwei Road,Yiwei Road,True,1.0
+116,Who reminds people to pay attention when walking becomes difficult and movement slows down?,The medical staff,POLICE,False,0.0
+117,Which reporter from CCTV sent back reports about the passenger flow in Shijiazhuang?,Xie binchao,Xie Binchao,True,1.0
+118,Which country's frigates are part of the second NATO naval formation that entered the Black Sea?,Netherlands,Netherlands,True,1.0
+119,"On 2019-04-25, which entity organized staff to go on the road and drain water from 5:00 in the morning?",local staff,local staff,True,1.0
+120,Which organization carried out the snow search and rescue drill training in Jilin Changbai Mountain?,Changbai Mountain Fire snow rescue team,CHANGBAI MOUNTAIN FIRE SNOW RESCUE TEAM,True,1.0
+121,Which customs department announced that it has solved a huge gold smuggling case?,Dalian Customs,Chinese Customs Department,False,0.4
+122,Which entity expressed support for the decision to suspend the repair work?,Hong Kong and Macao Affairs Office of the State Council,Hong Kong and Macao Affairs Office of the Central Government,False,0.8000000000000002
+123,Which country is the United States determined to contain according to the analysis?,Iran,Iran,True,1.0
+124,"On 2019-03-10, which entity was reported to have attended a rally in Caracas supporting the Venezuelan government?",President Maduro,President Maduro,True,1.0
+125,"On 2019-05-04, which scenic spot in Shandong province welcomed nearly 300,000 tourists during the May Day holiday?",Mount Tai scenic spot,Mount Tai Scenic Spot,True,1.0
+126,Which airline announced that its base project in Daxing will be completed on June 30?,China Southern Airlines,China Southern Airlines,True,1.0
+127,Which footwear giants were among the 173 American companies that signed an open letter to President Trump on May 20?,"Nike, Adidas",Nike,False,0.6666666666666666
+128,Who responded to Tsai Ing-wen's interview statements at the National Taiwan Affairs Office press conference?,Ma Xiaoguang,Ma Xiaoguang,True,1.0
+129,Which entity did the Russian Foreign Ministry ask to explain the reasons for the arrest of Russian citizen Makarenko?,U.S.,the United States,False,0.0
+130,"On 2019-04-23, which entity was sent back to China by the law enforcement department of Singapore?",Liang zening,Liang Zening,True,1.0
+131,Which airline announced that its base project in Daxing will be completed on June 30?,China Southern Airlines,China Southern Airlines,True,1.0
+132,Who responded to the Taiwan media report about mainland military aircraft at the Ministry of Foreign Affairs press conference?,Geng Shuang,Geng Shuang,True,1.0
+133,Which organization's director stated that regulatory manufacturers and air companies must take immediate steps to respond to public concerns after the second case?,Federal Aviation Administration,Federal Aviation Administration,True,1.0
+134,Which entity announced on 2019-05-10 that it would impose new sanctions on two shipping companies operated by Venezuela's oil sector?,The U.S. Treasury,The United States' International Security and Non-Proliferation Administration,False,0.18181818181818182
+135,"On 2019-02-12, which country was planning a conference with Poland to focus on Iran?",United States,United States,True,1.0
+136,Who answered questions from reporters about the Sino-US economic and trade consultation at the Ministry of Commerce press conference?,Gao Feng,Gao Feng,True,1.0
+137,"On December 29, 2018, which entity implemented a 24-hour ban on certain vehicles in Xiangxiang?",Xiangxiang,Xiangxiang City Government,False,0.5
+138,"On 2019-03-03, which entity's spokesman said that the crisis in Venezuela is caused by the United States and Britain?",Russian Embassy in the UK,The Russian Embassy in the UK,False,1.0
+139,"Who organized the dinner for the hotel chefs on December 31, 2015?",Chai,Chai,True,1.0
+140,Which aviation safety agency suspended the missions of Boeing 737-bar-8 and 737-bar-9 aircraft in the European Union?,European Aviation Safety Administration,European Aviation Safety Administration,True,1.0
+141,Which county in Sichuan Province was the earthquake area that emergency rescue teams rushed to?,Changning,Changning County,False,0.6666666666666666
+142,"On 2019-06-17, which entity stated that the large-scale blackout was the first time in Argentina's history?",lopetji,Marco,False,0.0
+143,Which organization's official micro blog went online on the morning mentioned in the news?,the rocket army of the people's Liberation Army,Rocket Army,False,0.5
+144,Which entity criticized China's participation in Arctic affairs during the Arctic Council meeting?,Peng Peio,Peng Peio,True,1.0
+145,Which entity's spokesman said there will be no significant increase in prices?,National Bureau of statistics,National Development and Reform Commission,False,0.22222222222222224
+146,Which entity's Ministry of Defense reported the collision accident involving Russian fighter planes?,Russian Ministry of defense,Russian,False,0.4
+147,Which province did the police determine Zhu bought a large number of drugs in?,Sichuan,Sichuan,True,1.0
+148,"On 2019-01-11, which entity said that China's business environment has risen sharply and attracted large numbers of Chinese enterprises to invest in China?",Lu Kang,Lu Kang,True,1.0
+149,Which entity's spokesperson responded to the G7 foreign ministers' joint statement?,China's Ministry of Foreign Affairs,China's Ministry of Foreign Affairs,True,1.0
+150,Which organization released the macro-economic data mentioned in the news article?,National Bureau of Statistics,National Bureau of Statistics,True,1.0
+151,"On 2019-04-10, which country returned 796 sets of cultural relics to China?",Italy,Italy,True,1.0
+152,Who issued a speech on May 1 asking Iran to respond to the U.S. offensive with a fighting attitude?,Ayatollah Khamenei,Ayatollah Khamenei,True,1.0
+153,Which entity expressed that China firmly opposes any foreign interference in the affairs of the Tibet Autonomous Region?,Lu Kang,The Chinese Government,False,0.0
+154,"Which entity did the police in Liaoyuan, Jilin Province find that Ms. Zhao's capital flow was closely related to?",a company in Xi'an,a company in Xi'an,True,1.0
+155,"On 2019-01-24, which entity's editorial called on the United States not to tear up the China Missile Treaty?",New York Times,New York Times,True,1.0
+156,"On 2019-06-26, which court issued the case of 'e rent treasure'?",the first intermediate people's Court of Beijing,Beijing First Intermediate People's Court,False,0.8333333333333333
+157,Who served as the spokesman for the National People's Congress at the press conference discussing legislative highlights?,Zhang Yesui,Zhang Yesui,True,1.0
+158,Which country's navy participated in the joint landing exercise with Thailand and South Korea?,United States,United States,True,1.0
+159,Where did the G20 finance ministers and central bank governors' meeting end?,Fukuoka,Fukuoka,True,1.0
+160,Which company's official website did the reporter find only four types of healthy food on?,ranjian Global China,Rankin Global,False,0.4
+161,Which entity launched the plan of strengthening and repairing the Great Wall in 2000?,Beijing Municipal Bureau of cultural heritage,Beijing Municipal Bureau of Cultural Heritage,True,1.0
+162,"On 2019-04-07, which scenic spot took measures to prevent fire during the Qingming holiday?",Wutai Mountain scenic spot,Wutai Mountain Scenic Spot,True,1.0
+163,"On May 30, 2019, which entity's director general continued to submit the latest quarterly report and reaffirmed Iran's implementation of its obligations under the comprehensive agreement on the Iranian nuclear issue?",International Atomic Energy Agency,International Atomic Energy Agency,True,1.0
+164,"On 2019-05-14, which US President tweeted about China withdrawing commitments during trade negotiations?",Donald Trump,Donald Trump,True,1.0
+165,Which city's command center reported that an old man was trapped on an island in the Oujiang River?,Longquan City,Longquan City,True,1.0
+166,Which country's spokesman fully affirmed the DPRK's measures for denuclearization?,China,China,True,1.0
+167,"On 2019-01-31, which spokesperson introduced the 2018 domestic trade data at the Ministry of Commerce press conference?",Gao Feng,Gao Feng,True,1.0
+168,Which location had the most obvious snowfall according to the text?,Yanqing,Urumqi,False,0.0
+169,"On 2019-02-16, which entity announced that Russian strategic bombers cruised over the Sea of Okhotsk and the western Pacific Ocean?",Ministry of Defense,The Russian Ministry of Defense,False,0.7499999999999999
+170,Who said that the agreement on the postponement of the return of Xiangxiang came into force recently?,Lu Kang,Lu Kang,True,1.0
+171,Which museum held a special exhibition of ancient Maya art during the Jinshatai Yang Festival?,Los Angeles County Art Museum,Imperial Palace Museum,False,0.25
+172,"On 2019-06-22, which entity announced the salvage of the U.S. drone wreckage in the Persian Gulf?",Iran Islamic Revolutionary Guard,Iran,False,0.4
+173,Which entity successfully landed on the back of the moon?,chang'e-4,Chang'e-4,True,1.0
+174,"On 2019-04-29, which entity picked up four young owls on the roadside in Jianshui County?",a villager,POLICE,False,0.0
+175,Who pointed out that U.S. military intervention caused regional tension according to the text?,Iranian President ruhani,Mahmoud Rouhani,False,0.0
+176,Who laid a wreath at the Piskarev Cemetery in St. Petersburg to commemorate the 75th anniversary of the Leningrad defense war?,Vladimir Putin,President Vladimir Putin,False,0.8
+177,Who said that the achievements of the three countries' cooperation were significant and that the next step should be to speed up the FTA?,Geng Shuang,Geng Shuang,True,1.0
+178,Who set the safety detour warning that the local man ignored?,the traffic police,TRAFFIC POLICE,False,0.8
+179,Who was the deputy director of Wenxi County Public Security Bureau that served as an umbrella for the Hou brothers' gang?,Jing Yinmin,Jing Yimin,False,0.5
+180,Which country announced its withdrawal from the Iranian nuclear agreement last year?,the United States,United States,False,0.8
+181,"On 2019-03-18, which North Korean official said they were considering suspending denuclearization negotiations with the United States?",Cui Shanji,Cui Shanji,True,1.0
+182,Who said in a televised speech that the Venezuelan military will continue to adhere to its previous position and recognize Maduro as the legitimate president?,Adriano Lopez,Adriano Lopez,True,1.0
+183,"On 2019-01-25, which organization said that this year's in-hospital monitoring does not indicate a significant increase in necrotic encephalopathy due to influenza?",the national health and Health Commission,National Health and Health Commission,False,0.888888888888889
+184,"According to the poll released by the British polling agency, what percentage of Britons don't approve of Theresa May's work?",57%,57%,True,1.0
+185,"Which entity released data on January 10, 2019, showing that the national consumer price rose by 2.1% in 2018?",National Bureau of Statistics,National Bureau of Statistics,True,1.0
+186,Which entity did Syrian President Bashar Assad meet with in Iran according to the news agency of the Islamic Republic of Iran?,Khamenei,Khamenei,True,1.0
+187,What is the name of the island where the base that can support 250 officers and soldiers for half a year is located?,kogeli island,Kogelini Island,False,0.5
+188,Which entity criticized China's human rights situation in its 2018 report?,The U.S. State Council,European Union,False,0.0
+189,"On 2019-06-23, which entity rescued the child trapped in the car?",the police,Police,False,0.6666666666666666
+190,Which entity is traded in Shenyang according to the news?,Puhe Daji,New Year's products,False,0.0
+191,Who visited several small markets in the suburb of Caracas to investigate claims about Venezuela's material shortage?,Max Blumenthal,REPORTER,False,0.0
+192,Who issued a double warning of cold wave and snowstorm this morning according to the text?,Central Meteorological Observatory,The Central Meteorological Observatory,False,0.8571428571428571
+193,"Who announced the signing of an administrative order to impose sanctions on Iran's iron, steel, aluminum, and copper industries?",President trump,President Trump,True,1.0
+194,Who responded to criticisms of the clash of civilizations theory at the Ministry of Foreign Affairs press conference?,Lu Kang,Lu Kang,True,1.0
+195,Which organization's spokesman responded to the EU's anti-dumping investigation against China's steel keel?,Ministry of Commerce,Chinese Ministry of Commerce,False,0.8571428571428571
+196,Which entity increased the capacity of public transportation according to the article?,transportation department,Railway Department,False,0.5
+197,"On 2019-03-18, which entity's spokesman said there are obvious similarities between the Ethiopian Airlines crash and the Lion Air crash?",Ethiopia's Ministry of transport,Civil Aviation Administration of China (CAAC),False,0.2
+198,Which entity responded to the Taiwan Land Commission's actions at the press conference?,An Fengshan,The Taiwan Affairs Office,False,0.0
+199,Which city implemented the most stringent regulations on garbage classification?,Shanghai,Shanghai,True,1.0
+200,Which organization successfully evacuated and rescued 20 trapped people after receiving a police call for help in Luodian County?,local firefighters,firefighters,False,0.6666666666666666
+201,"On 2019-03-16, which organization exposed consumer black scenes in a party broadcast?",CCTV,CCTV,True,1.0
+202,Which organization provided information about the ice flow conditions in the Shandong section of the Yellow River?,Shandong Yellow River Bureau,Shandong Yellow River Bureau,True,1.0
+203,Who temporarily cancelled his trip to Moscow on the 13th?,U.S. Secretary of state pompeio,Pompeo,False,0.0
+204,From which airport did the Sukhoi super 100 take off according to the report?,Moscow's sheremejevo airport,Moscow's sheremejevo airport,True,1.0
+205,"On 2019-04-15, which organization reported that China's national customs seized more than 500 tons of endangered species and their products?",General Administration of customs,General Administration of customs,True,1.0
+206,"On 2019-04-02, which entity threatened Russia and said it intended to take joint action against Russia on Ukraine?",the United States,United States Government,False,0.6666666666666666
+207,Which organization used a police car to transport a critically injured child to the hospital in Longli county?,Local police,police,False,0.6666666666666666
+208,Which entity issued the white paper on China's position regarding China-US economic and trade consultation?,Information Office of the State Council,The Information Office of the State Council,False,1.0
+209,"On 2019-05-31, which entity can give a warning and punishment after reporting to the police for disturbances to normal life order?",public security organ,public security organ,True,1.0
+210,"On 2019-02-03, which entity was described as the only children's program to find friends in that year's Spring Festival Gala?",Looking for friends,Looking for Friends,True,1.0
+211,Which company is suspected of false propaganda according to the text?,hongruilebang company,hongruilebang company,True,1.0
+212,Who made a statement to the Security Council about the situation in Venezuela?,Ma Zhaoxu,Ma Zhaoxu,True,1.0
+213,"On 2019-01-20, which entity found a man carrying handicraft bullets during a security check at Chongqing West Railway Station?",the police,railway police,False,0.5
+214,Which organization launched the first round of centralized operations against foreign garbage smuggling at 6 o'clock in the morning?,General Administration of Customs,General Administration of Customs,True,1.0
+215,"On 2019-03-15, which company was mentioned as potentially being required to give compensation to aviation enterprises if investigation results determine technical problems?",Boeing,Boeing,True,1.0
+216,Who responded to Tsai Ing-wen's assertion of sovereignty?,Ma Xiaoguang,Ma Xiaoguang,True,1.0
+217,Who is the governor of the state of Hidalgo mentioned in the article?,Omar menesses,Omar Menesses,True,1.0
+218,"On 2019-01-01, which leader delivered a New Year's message emphasizing denuclearization of the Korean Peninsula?",Kim Jeong-eun,Kim Jong-un,False,0.5
+219,Who was put on file by the supervisory organ for investigation due to suspected violation of law related to duties?,Wang Linqing,Wang Erzhi,False,0.5
+220,"On 2019-05-23, which entity responded to a reporter's question about risks for US enterprises operating in China?",Gao Feng,Gao Feng,True,1.0
+221,Which township experienced large landslides along with the same gate during the earthquake?,Xiulin Township,Xiulin Township,True,1.0
+222,"On 2019-02-06, which entity carried out 24 hours of uninterrupted snow clearing operations to serve tourists during the Spring Festival?",Changbaishan scenic area,Changbaishan scenic area,True,1.0
+223,Which newspaper reported that the pilot of the crashed Ethiopian airliner shut down the automatic anti-stall system before the crash?,The Wall Street Journal,The Wall Street Journal,True,1.0
+224,Who reiterated Russia's support for the political settlement of all disputes in Libya?,Sergei pogdanov,Sergei Bogdanov,False,0.5
+225,Which county experienced the maximum wind force of level 14 during the severe convection weather?,Hanshan County,Hanshan County,True,1.0
+226,"On 2019-03-21, which group composed of local enthusiastic citizens in Jilin came out to help the trapped vehicles?",A rescue team,RESCUE TEAM OF ENTHUSIASTIC CITIZENS,False,0.5
+227,Which ministry held a press conference to report on the special fight against crime?,Ministry of public security,Ministry of Public Security,True,1.0
+228,Which entity is responsible for investigating the black box of the Ethiopian air crash passenger plane?,French civil aviation safety investigation and analysis Bureau,The French Civil Aviation Safety Investigation and Analysis Bureau,False,0.9411764705882353
+229,"On 2019-06-01, which entity said that the core issue of the economic and trade frictions provoked by the United States is not about the trade surplus and deficit between the United States and China?",Chen Deming,Chen Deming,True,1.0
+230,Who announced that he would hold talks with Russian Foreign Minister Sergei Lavrov this week to try to save the China Missile Treaty?,Stoltenberg,Jens Stoltenberg,False,0.6666666666666666
+231,Who quoted a Chinese proverb about tigers fighting when discussing the Sino-US trade war at the International Economic Forum in St. Petersburg?,Vladimir Putin,Vladimir Putin,True,1.0
+232,Which entity established a liaison office to coordinate services for the families of Chinese victims after the accident?,the Chinese Embassy in Ethiopia,The Chinese Embassy in Ethiopia,True,1.0
+233,Who was arrested by the police in August 2018 along with his gang members?,Jiang,Jiang,True,1.0
+234,"On 2019-06-08, which organization issued the weather news about heavy rainfall in southern China?",Central Meteorological Observatory,Central Meteorological Observatory,True,1.0
+235,Which entity is reporting on the traffic situation at the Second Yangtze River Bridge toll gate in Nanjing?,Li Xiaoli,Li Xiaoli,True,1.0
+236,Who spent 2700 yuan on a rhinoplasty injection that almost ruined her life?,Feifei,Feifei,True,1.0
+237,Which country's Ministry of Transport released a message about the analysis of the black box data from the Ethiopian Airlines crash?,Ethiopia,France,False,0.0
+238,Which entity has set up a policy consultation hotline to answer policy consultation at any time?,human resources and social security departments,Ministry of Human Resources and Social Security,False,0.7692307692307692
+239,Which entity did the Supreme Court of Venezuela announce restrictions on?,guaido,Juan Guaidó,False,0.0
+240,Where did the Paris municipal government hold its grand new year's event for the fifth consecutive time?,Champs Elysees,Champs Elysees,True,1.0
+241,Who made important instructions to organize earthquake relief work after the Changning County earthquake?,Xi Jinping,Xi Jinping,True,1.0
+242,Which district in Guizhou Province was hit by hailstones according to the article?,Huaxi District,Huaxi District,True,1.0
+243,"On 2019-05-07, which entity issued a rainstorm orange warning signal at more than 10 o'clock in the morning?",Qionghai meteorological station,Qionghai meteorological station,True,1.0
+244,Which government ministry issued the measures for the management of new forms of transportation and user funds?,Ministry of transport,Ministry of Transport,True,1.0
+245,Which country has joined hands with Germany to propose establishing a European army?,France,France,True,1.0
+246,"On 2019-04-17, which organization reported that there was an open fire in Russia at 6:00 a.m.?",Hulunbuir forest and grassland fire control headquarters,Fire Prevention Staff in Chenbarhu Banner,False,0.15384615384615383
+247,"On 2019-01-28, which entity published an article condemning South Korean military training?",North Korean media,North Korean media,True,1.0
+248,"On March 20, 2019, which entity issued a notice regarding the pension adjustment work?",the Ministry of human resources and social security and the Ministry of finance,The Ministry of Human Resources and Social Security,False,0.9411764705882353
+249,Which city held a memorial service at the Longhua martyrs cemetery?,Shanghai,Shanghai,True,1.0
+250,Who confirmed that China has persisted in combining the principle of universality of human rights with its own reality over the past 70 years?,Zhang Yuhui,Zhang Yuhui,True,1.0
+251,"On 2019-01-17, which entity passed a regulation submitted by the government regarding the transition period?",German Federal hospital,German Federal Hospital,True,1.0
+252,Which company developed the F22 Raptor?,Lockheed Martin,Lockheed Martin,True,1.0
+253,Who said that the flexible extension period is enough for the UK to find the best solution to the Brexit problem?,Tusk,Tusk,True,1.0
+254,Which two provinces are specifically mentioned as major producing areas in the fireworks and firecrackers spot check?,Hunan and Jiangxi,Hunan and Jiangxi,True,1.0
+255,Which hospital did the pregnant woman go to for examination?,Chang'an District Maternal and child health care hospital,Chang'an District Maternal and Child Health Care Hospital,True,1.0
+256,Which town in Changning is known for having a grape well that produces cold cake?,Shuanghe town,Shuanghe Town,True,1.0
+257,"On 2019-05-18, which entity was interviewed about Huawei's spare tire chip turnaround?",Xiong Wei,Xiong Wei,True,1.0
+258,Which entity is the venue for the World Horticultural Exposition located near?,Badaling Great Wall,Badaling Great Wall,True,1.0
+259,Which company was among those that sent a letter to President Trump regarding tariffs on Chinese footwear?,Adidas,Adidas,True,1.0
+260,Which country's Ministry of Defense announced the opening of the 2019 NATO joint military exercise in Georgia?,Georgia,Georgia,True,1.0
+261,"On 2019-02-03, which entity demonstrated a new cruise missile with a range of 1350km for the first time?",Iran's Ministry of defense,Iran's Ministry of Defense,True,1.0
+262,"On 2019-01-15, which province issued the blue warning of cold wave and the blue warning of road ice and snow?",Jilin Province,Jilin Province,True,1.0
+263,Who made great efforts in marketing the so-called miraculous cream?,Zhou Mou,Hongrui Lebang Company,False,0.0
+264,Who is going to participate in the rehearsal for the Spring Festival Gala?,Tong Dawei,Tong Dawei,True,1.0
+265,"On 2019-01-08, which entity first introduced the investigation progress to the public regarding Tianjin's 'power and health incident'?",The police,the police,True,1.0
+266,Which museum first restored the Qing Dynasty imperial palace's Lantern Festival scene in spring 2019?,Imperial Palace Museum,The Imperial Palace Museum,False,0.8571428571428571
+267,"On 2019-05-15, which entity rushed to the construction site to rescue the trapped workers?",local firefighters,Local firefighters,True,1.0
+268,"Which country's secretary of state expressed concerns about Huawei's expansion in Central Europe during visits to Hungary, Slovakia, and Poland?",United States,the United States,False,0.8
+269,Which country's president did Maduro meet with in Moscow in July 2013?,Russia,Russia,True,1.0
+270,Which county formed an emergency rescue working group to respond to the flood disaster?,Zhouqu County,Luodian County,False,0.5
+271,Who led the group of more than 20 people involved in the forced transaction of black ambulances?,Zhang,Zhang,True,1.0
+272,"On March 12, 2019, which entity reported seeing a huge pit at the Ethiopian Airlines crash site?",CCTV reporter No. 10,CCTV,False,0.4
+273,Which province is Nayong located in?,Guizhou Province,Guizhou Province,True,1.0
+274,"On December 4, 2011, which country's air defense forces shot down a U.S. drone at the eastern border?",Iran,Iran,True,1.0
+275,"On 2019-04-29, which entity rushed to the scene for rescue after a fire broke out in a building in Zibo, Shandong Province?",firefighters,FIREFIGHTERS,True,1.0
+276,Who spoke highly of China at the world environment day global main event in Hangzhou?,Ban Ki Moon,Ban Ki-moon,False,0.4
+277,Which country's foreign ministry said it would send officials to Iran to mediate?,Britain,Britain,True,1.0
+278,Which entity held the first national medical insurance working conference in Beijing?,National Medical Insurance Bureau,National Medical Insurance Bureau,True,1.0
+279,"On 2019-01-25, which entity braved minus 16 degrees Celsius weather to conduct ice rescue drill training in Fushun, Liaoning Province?",firefighters,FIREFIGHTERS,True,1.0
+280,"Which country announced unconditional surrender in Berlin on May 8, 1945?",fascist Germany,Fascist Germany,True,1.0
+281,Who responded to Canada's foreign minister at the regular press conference regarding the rapeseed export issue?,Lu Kang,Lu Kang,True,1.0
+282,Which country's apples are being imported and sold quickly in China according to the article?,Poland,Poland,True,1.0
+283,"On April 29, 2019, which news agency reported about the golden open top review car during the parade rehearsal?",Tass news agency,Tass news agency,True,1.0
+284,Which three European countries were specifically mentioned as being among the six that reached a nuclear agreement with Iran in July 2015?,"France, Germany and Britain",France,False,0.4
+285,"On January 26, 2019, which country's air force conducted flight training in the Arctic region that was intercepted by U.S. and Canadian warplanes?",Russian Air Force,Russian Air Force,True,1.0
+286,"Which entity organized personnel to rush to the scene after heavy rainfall in Enshi, Hubei?",local fire police,Local Fire Police,True,1.0
+287,Which entity is responsible for carrying out the Spring Festival transportation work according to Ma Xiaoguang?,mainland authorities,Taiwan Affairs Office,False,0.0
+288,What entity is threatened by a coin being thrown into an aircraft engine?,the whole aircraft,the whole aircraft,True,1.0
+289,"On 2019-01-03, which spacecraft was described as having the von Karman impact crater as its landing area?",chang'e-4,Chang'e-4,True,1.0
+290,Which U.S. Senator expressed strong dissatisfaction with how U.S. media referred to Guaido?,Rubio,Rubio,True,1.0
+291,Which country's leader is mentioned as being constrained by the domestic trust investigation?,United States,the United States,False,0.8
+292,Who confirmed that Philippine President Duterte did not attend the emergency cabinet meeting regarding the fishing boat collision?,a spokesman for the Philippine presidential office,Philippine,False,0.25
+293,Which country experienced a highway collision involving a truck due to heavy snow?,England,China,False,0.0
+294,"On 2019-04-15, which giant panda set out from the Shenshuping base in Wolong, Sichuan Province, to Austria for scientific research cooperation?",Yuanyuan,Yuanyuan,True,1.0
+295,Which entity set up an inspection team to verify illegal occupation of forest land?,State Forestry and grassland administration in Heilongjiang Province Forest Resources Supervision Commissioner Office,State Forestry and grassland administration,False,0.5555555555555556
+296,"On June 22, 2019, which entity transferred more than 400 people from low-lying areas along the river overnight?",Dongping town,Dongping,False,0.6666666666666666
+297,Who read out a statement on behalf of Zhang Yingying's father?,the lawyer,lawyer,False,0.6666666666666666
+298,Who said that the heads of state of China and Russia met in Moscow yesterday?,Gao Feng,Lu Kang,False,0.0
+299,Which organization's reporters provided the report from the chorus?,CCTV,China Central Television ( CCTV),False,0.4
+300,Which organization reported cases of cholera and malaria in the disaster area?,International Federation of Red Cross and Red Crescent Societies,International Federation of Red Cross,False,0.7692307692307693
