@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿<h1 align="center">
+﻿﻿﻿﻿﻿﻿﻿<h1 align="center">
   DTME
 </h1>
 
@@ -27,12 +27,12 @@ This paper has been submitted to the TKDE.
 ### Results:
 The results are:
 
-| Dataset  | MRR  | H@1  | H@3  | H@10 |
-| :------: | :--: | :--: | :--: | :--: |
-| FocusKG  | 41.7 | 32.0 | 51.4 | 63.6 |
-| WN18RR++ | 55.6 | 48.9 | 57.9 | 67.6 |
-| FB15K237 | 37.3 | 28.0 | 40.9 | 56.7 |
-|  VTKG-I  | 48.7 | 40.8 | 50.5 | 64.7 |
+| Dataset  | MRR  | Hits@1 | Hits@3 | Hits@10 |
+| :------: | :--: | :----: | :----: | :-----: |
+| FocusKG  | 41.7 |  32.0  |  50.4  |  63.6   |
+| WN18RR++ | 55.6 |  48.9  |  57.9  |  67.6   |
+| FB15K237 | 37.3 |  28.0  |  40.9  |  56.7   |
+|  VTKG-I  | 48.7 |  40.8  |  50.5  |  64.7   |
 
 ### Data:
 
