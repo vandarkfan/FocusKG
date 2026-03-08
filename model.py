@@ -91,7 +91,7 @@ class DTME(nn.Module):
 
         self.ent_token = nn.Parameter(torch.Tensor(1, 1, dim_str))
         self.rel_token = nn.Parameter(torch.Tensor(1, 1, dim_str))
-
+        self.modality_weights = nn.Parameter(torch.ones(6) / 6)
         with open('data/focus/processed_entities.json', 'r', encoding='utf-8') as f:
             self.entity_multimodal = json.load(f)
         self.entity_multimodal = self.dict_to_matrices(self.entity_multimodal)
@@ -326,11 +326,11 @@ class DTME(nn.Module):
         rel_aud = emb_rel[5][triplets[:, 1]]
         time = self.time_embeddings(triplets[:, 3])
         time = self.timedr(time)
-
+        weight = F.softmax(self.modality_weights, dim=0)
         scores_mm = self.Tcomplex(lhs_mm, rel_mm, rhs_mm, time, emb_ent[0], emb_rel)
         scores_str = self.Tcomplex(lhs_str, rel_str, rhs_str, time, emb_ent[1], emb_rel)
         scores_img = self.Tcomplex(lhs_img, rel_img, rhs_img, time, emb_ent[2], emb_rel)
         scores_txt = self.Tcomplex(lhs_txt, rel_txt, rhs_txt, time, emb_ent[3], emb_rel)
         scores_vid = self.Tcomplex(lhs_vid, rel_vid, rhs_vid, time, emb_ent[4], emb_rel)
         scores_aud = self.Tcomplex(lhs_aud, rel_aud, rhs_aud, time, emb_ent[5], emb_rel)
-        return scores_mm, scores_str, scores_img, scores_txt, scores_vid, scores_aud
+        return scores_mm, scores_str, scores_img, scores_txt, scores_vid, scores_aud,weight

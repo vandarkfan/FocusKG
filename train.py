@@ -129,13 +129,19 @@ for epoch in range(last_epoch + 1, args.num_epoch + 1):
 
         # l_fit1 = w_rhs * loss_fn(rhs_scores, batch[:, 2].cuda())
         # loss = l_fit1
-        l_fit0 = w_rhs * loss_fn(rhs_scores[0], batch[:, 2].cuda())
-        l_fit1 = w_rhs * loss_fn(rhs_scores[1], batch[:, 2].cuda())
-        l_fit2 = w_rhs * loss_fn(rhs_scores[2], batch[:, 2].cuda())
-        l_fit3 = w_rhs * loss_fn(rhs_scores[3], batch[:, 2].cuda())
-        l_fit4 = w_rhs * loss_fn(rhs_scores[4], batch[:, 2].cuda())
-        l_fit5 = w_rhs * loss_fn(rhs_scores[5], batch[:, 2].cuda())
-        loss = (l_fit0 + l_fit1 + l_fit2 + l_fit3 + l_fit4 + l_fit5) / 6
+        l_fit0 = rhs_scores[-1][0] * loss_fn(rhs_scores[0], batch[:, 2].cuda())
+        l_fit1 = rhs_scores[-1][1] * loss_fn(rhs_scores[1], batch[:, 2].cuda())
+        l_fit2 = rhs_scores[-1][2] * loss_fn(rhs_scores[2], batch[:, 2].cuda())
+        l_fit3 = rhs_scores[-1][3] * loss_fn(rhs_scores[3], batch[:, 2].cuda())
+        l_fit4 = rhs_scores[-1][5] * loss_fn(rhs_scores[4], batch[:, 2].cuda())
+        l_fit5 = rhs_scores[-1][5] * loss_fn(rhs_scores[5], batch[:, 2].cuda())
+        weights = rhs_scores[-1]
+        eps = 1e-10
+        entropy = -torch.sum(weights * torch.log(weights + eps))
+        max_entropy = torch.log(torch.tensor(weights.shape[-1]))
+        # 最小化熵与最大熵的差距
+        diversity_loss = (max_entropy - entropy).abs()
+        loss = (l_fit0 + l_fit1 + l_fit2 + l_fit3 + l_fit4 + l_fit5) + diversity_loss * 10
 
         total_loss += loss.item()
         optimizer.zero_grad()
