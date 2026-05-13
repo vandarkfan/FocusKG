@@ -38,26 +38,41 @@ class MIN(nn.Module):
     def _ff_block(self, x):
         x = self.linear2(self.dropout(F.relu(self.linear1(x))))
         return self.dropout2(x)
-    def tt_product_nd(self, x_new, w_new):
-        """
-        n分量张量积通用计算
-        输入形状:
-        - x_new: [batch_size, in_dim, n]
-        - w_new: [in_dim, out_dim, n]
-        输出形状:
-        - h: [batch_size, out_dim, n]
-        """
-        batch_size, in_dim, n = x_new.shape
-        out_dim = w_new.shape[1]
-        h = torch.zeros([batch_size, out_dim, n], device=x_new.device)
 
-        for k in range(n):
-            for i in range(n):
-                # 计算w分量索引: (k - i) mod n
-                j = (k - i) % n
-                h[:, :, k] += torch.matmul(x_new[:, :, i], w_new[:, :, j])
+
+    def tt_product_nd1(self, x_new, w_new):
+        B, d, n = x_new.shape
+
+        d_out = w_new.shape[1]
+        h = torch.zeros(B, d_out, n, device=x_new.device)
+        for i in range(n):
+            j = (torch.arange(n) - i) % n
+            h += torch.matmul(x_new[:, :, i], w_new[:, :, j])
+    return h
+
+    def tt_product_nd2(self, x_new, w_new):
+        B, d, n = x_new.shape
+        d_out = w_new.shape[1]
+        x_reshaped = x_new.permute(0, 2, 1)
+        w_reshaped = w_new.permute(2, 0, 1)
+
+        h = torch.bmm(x_reshaped, w_reshaped)
+        h = h.permute(0, 2, 1)
 
         return h
+
+    def tt_product_nd3(x, U, V, alpha):
+        B, d, n = x.shape
+        R, d_out = V.shape
+        proj = torch.einsum('bdn,rd->bnr', x, U)
+        h = torch.zeros(B, d_out, n, device=x.device)
+        for i in range(n):
+            weights = alpha[(torch.arange(n) - i) % n]
+            coeff = (proj * weights.unsqueeze(0)).sum(dim=1)
+            h[:, :, i] = coeff @ V
+
+        return h
+
     def forward(self, ent_seq):
         ent_seq = ent_seq + self._sa_block(self.norm1(ent_seq))
         ent_embs = ent_seq + self._ff_block(self.norm2(ent_seq))
