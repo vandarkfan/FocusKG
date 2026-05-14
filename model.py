@@ -40,7 +40,7 @@ class MIN(nn.Module):
         return self.dropout2(x)
 
 
-    def tt_product_nd1(self, x_new, w_new):
+    def tt_product_nd(self, x_new, w_new):
         B, d, n = x_new.shape
 
         d_out = w_new.shape[1]
