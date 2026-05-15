@@ -39,8 +39,20 @@ class MIN(nn.Module):
         x = self.linear2(self.dropout(F.relu(self.linear1(x))))
         return self.dropout2(x)
 
+    def tt_product_nd(x, W):
+        B, d, n = x.shape
+        h = torch.zeros(B, d, n, device=x.device)
 
-    def tt_product_nd(self, x_new, w_new):
+        state = torch.zeros(B, d, device=x.device)
+
+        for k in range(n):
+            i = (k - torch.arange(n, device=x.device)) % n
+            state = state @ W[k] + x[:, :, i[0]]
+            h[:, :, k] = state
+
+        return h
+
+    def tt_product_nd1(self, x_new, w_new):
         B, d, n = x_new.shape
 
         d_out = w_new.shape[1]
